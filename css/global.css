@@ -38,3 +38,8 @@ h1{
     color: var(--secondary-color);
     font-weight: var(--title-weight-);
 }
+
+body{
+    background-color: #929292;
+        font-family : "Montserrat";
+}
