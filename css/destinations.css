@@ -31,14 +31,13 @@
 .destinations-itens p {
     padding-bottom: 24px;
     font-size: 20px;
-    font-weight: var(--text-weight: 400);
+    font-weight: var(--text-weight);
 }
 
 .destinations-itens .button {
-    width: 100%;
+    width: 312px;
     text-align: center;
 }
-
 
 .item .img-item2 {
     width: 100%;
@@ -47,4 +46,52 @@
     background-size: cover;
     background-position: center;
     margin: 32px auto 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .destinations-itens {
+        padding: 0 60px;
+    }
+
+    .item .img-item1 {
+        background-image: url(../img/tokyo-tablet-desk.jpg);
+    }
+
+    .destinations-itens .button {
+        width: 280px;
+        text-align: center;
+    }   
+
+    .item .img-item2 {
+        background-image: url(../img/osaka-tablet-desk.jpg);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .destinations-itens {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .item {
+        width: 400px;
+        height: 452px;
+    }
+
+    .item .img-item2 {
+        margin: 0 auto 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destinations-itens {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .item {
+        width: 588px;
+    }
 }
