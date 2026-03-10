@@ -1,9 +1,4 @@
-.categories .section-title {
-    width: 312px;
-    margin: 88px auto 0;
-}
-
-.category-cards{
+.category-cards {
     display: flex;
     flex-direction: column;
     align-items: center;

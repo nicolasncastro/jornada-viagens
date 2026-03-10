@@ -45,7 +45,8 @@ body {
 }
 
 .section-title {
-    margin-top: 88px;
+    width: 380px;
+    margin: 88px auto 0;
 }
 
 .section-title h2 {
@@ -74,6 +75,7 @@ body {
     border-radius: 16px;
     text-decoration: none;
     line-height: 64px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
