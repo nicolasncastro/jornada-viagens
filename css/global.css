@@ -45,7 +45,7 @@ body {
 }
 
 .section-title {
-    width: 380px;
+    width: 280px;
     margin: 88px auto 0;
 }
 
@@ -79,6 +79,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .section-title {
+        width: 100%;
+    }
+    
     .section-title h2{
         font-size: 32px;
     }
