@@ -22,16 +22,8 @@
     margin: 0 auto 24px;
 }
 
-.destinations-itens h4 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
-    margin: 0;
-}
-
 .destinations-itens p {
-    padding-bottom: 24px;
-    font-size: 20px;
-    font-weight: var(--text-weight);
+    margin-bottom: 24px;
 }
 
 .destinations-itens .button {
@@ -75,7 +67,6 @@
 
     .item {
         width: 428px;
-        height: 452px;
     }
 
     .item .img-item2 {
