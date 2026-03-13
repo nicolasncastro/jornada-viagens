@@ -9,6 +9,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 24px;
     margin-top: 24px;
+    height: 460px;
 }
 
 .image img {
@@ -28,17 +29,18 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .payments {
-        padding: 0 120px;
-    }
-
     .all-content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
     .image-content {
         grid-column: span 2;
+        margin-top: 0;
+    }
+
+    .content-title {
+        margin-top: 0;
     }
 }
