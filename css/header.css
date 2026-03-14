@@ -1,4 +1,4 @@
-header{
+.header-principal {
     display: flex;
     padding: 38px 48px;
     background-color: var(--background-tertiary-color);
@@ -81,14 +81,14 @@ nav{
         margin: 0;
     }
 
-    header{
+    .header-principal{
         align-items: center;
     }
 }
 
 @media screen and (min-width: 1024px){
     
-    header{
+    .header-principal{
         padding: 38px 120px;
     }
 
