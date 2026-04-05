@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: var(--background-tertiary-color);
     align-items: center;
+    padding: 0 24px;
 }
 
 .footer p {
@@ -31,7 +32,7 @@
 
 .midias {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     margin: 32px;
     gap: 16px;
 }
@@ -53,4 +54,36 @@
 
 .icons a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .footer p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .midias p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 52px 120px;
+    }
+
+    .informations {
+        text-align: center;
+        align-items: start;
+    }
+
+    .informations img {
+        margin: 0 0 16px;
+    }
+
+    .midias {
+        margin: 0;
+    }
 }
