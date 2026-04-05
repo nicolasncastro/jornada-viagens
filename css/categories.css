@@ -64,4 +64,8 @@
     .category {
         width: 280px;
     }
+
+    .category a {
+        gap: 28px;
+    }
 }
