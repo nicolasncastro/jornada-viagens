@@ -53,3 +53,79 @@
         padding: 88px 352px;
     }
 }
+
+/* SUB-PÁGINA PACOTES DE VIAGENS */
+
+.hero-img-pacotes {
+    background-image: url(../img/japao-hero-pacotes-mobile.png);
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-position: right;
+    display: block;
+}
+
+.hero-pacotes h1{
+    color: var(--text-secondary-color);
+    font-size: 48px;
+    display: inline-block;
+}
+
+.hero-pacotes .section-title {
+    margin: 0;
+    padding: 65px 0 0 24px;
+    width: auto;
+}
+
+.hero-pacotes .section-title hr {
+    margin: 16px 0 32px 0;
+    display: block;
+}
+
+.hero-pacotes .content-text {
+    padding: 0 24px;
+    color: var(--text-secondary-color);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .hero-img-pacotes {
+        height: 620px;
+    }
+    
+    .hero-pacotes .section-title {
+        padding: 209px 69px 0 120px;
+    }
+
+    .hero-pacotes .content-text {
+        padding: 0 69px 0 120px;
+        font-size: 32px;
+        line-height: 150%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-img-pacotes {
+        background-image: url(../img/japao-hero-pacotes-desktop.png);
+    }
+    
+    .hero-pacotes .content-text {
+        padding: 0 741px 0 120px;
+    }
+
+    .hero-pacotes .section-title {
+        padding-top: 158px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .hero-pacotes .content-text {
+        padding: 0 900px 0 352px;
+    }
+
+    .hero-pacotes .section-title {
+        padding-left: 352px;
+    }
+}
