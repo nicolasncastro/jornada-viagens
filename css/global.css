@@ -77,7 +77,7 @@ body {
 
 .button {
     display: inline-block;
-    width: 280px;
+    width: 312px;
     height: 64px;
     color: var(--text-secondary-color);
     font-weight: var(--title-weight);

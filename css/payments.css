@@ -43,3 +43,31 @@
         margin-top: 0;
     }
 }
+
+/* SUB-PÁGINA PACOTES DE VIAGENS */
+
+.japones-japao {
+    grid-column: span 2;
+    width: 100%;
+}
+
+.content-text.pacotes {
+    padding-bottom: 24px;
+}
+
+.all-content button {
+    display: none;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: var(--title-weight);
+}
+
+@media screen and (min-width: 1440px) {
+    .text-content {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
