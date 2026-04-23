@@ -65,7 +65,7 @@ h2 {
 }
 
 @media screen and (min-width: 1440px) {
-    .text-content {
+    .text-content.pacotes{
         justify-content: center;
         display: flex;
         flex-direction: column;
