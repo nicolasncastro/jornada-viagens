@@ -22,3 +22,31 @@
         background-position: center 70%;
     }
 }
+
+/* HERO BASS SUB PAGINA PACOTES */
+
+.hero-bass-img {
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/hero-bass-mobile-pacotes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 88px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-bass-img {
+        background-image: url(../img/hero-bass-tablet-pacotes.png);
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-bass-img {
+        background-image: url(../img/hero-bass-desktop-pacotes.png);
+        height: 600px;
+        margin-top: 104px;
+        background-position: center 70%;
+    }
+}
+
